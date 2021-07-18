@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: black;
+}
+.e{
+    color: rgb(252, 106, 53);
+}
+.all-cat{
+    background: transparent;
+    border: 1px solid black;
+}
+.accounts li{
+    list-style: none;
+}
+.categories{
+    background-color: rgb(252, 106, 53);
+    border: none;
+    padding: 2% 3%;
+    color: white;
+    margin: 0;
+}
+.f{
+    background-color: rgb(252, 106, 53);
+    border: none;
+    border-radius: 50%;
+    /* margin: 0px 0px 20px 0px; */
+    padding: 5px;
+    color: white;
+}
+.caption{
+    margin: 100px 0px;
+    position: absolute;
+    
+}
+.caption h1{
+    font-weight: 900;
+}
+.col-1{
+    background: url('../../img/banner10.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.col-2{
+    background: url('../../img/banner11.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.astro{
+    width: 200px;
+    height: 200px;
+}
+.we-3{
+    font-size: small;
+    font-weight: 900;
+}
+.col-12 img{
+    width: 50%;
+}
+.col-md-9 img{
+    width: 100%;
+}
+/* .col-md-3 img{
+    width: 100%;
+} */
+.col-3 img{
+    width: 80%;
+}
+
+.cols img{
+    width: 100%;
+}
+.cols .py-5 h3{
+    margin-bottom: 150px;;
+}
+@media screen and (max-width: 640px){
+    .caption{
+        margin: 1% 0;
+        font-size: x-small;
+    }
+    .caption h1{
+        font-size: medium;
+    }
+}
